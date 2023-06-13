@@ -9,6 +9,9 @@ const Pin = (props) => {
 }
 
 const styles = {
+    xs: {
+        gridRowEnd: 'span 22'
+    },
     small: {
         gridRowEnd: 'span 26',
     },
@@ -17,6 +20,9 @@ const styles = {
     },
     large: {
         gridRowEnd: 'span 40',
+    },
+    xl: {
+        gridRowEnd: 'span 58'
     }
 }
 
