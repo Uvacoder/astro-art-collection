@@ -59,6 +59,7 @@ const Gallery: React.FC = () => {
                     <Pin size="medium" img="https://cdn.leonardo.ai/users/3942fa26-6fbc-471f-b22a-0e80c33f52b2/generations/edea25e1-b8fb-4483-b3a6-96c30ec4b120/variations/Default_a_masterpiece_wearing_alternate_disney_Princess_Jasmin_1_edea25e1-b8fb-4483-b3a6-96c30ec4b120_1.jpg?w=512" />
                     <Pin size="large" img="https://cdn.leonardo.ai/users/a89cdc0d-2101-4a01-aadf-f6d285678619/generations/c9356f46-67e8-4bfc-b93d-f743234a2538/variations/Default_Jellyfish_ultra_detailed_artistic_photography_midnight_aura_n_0_c9356f46-67e8-4bfc-b93d-f743234a2538_1.jpg" />
                 </div>
+                
             </div>
     );
 };

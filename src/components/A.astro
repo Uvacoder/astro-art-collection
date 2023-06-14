@@ -1,16 +1,16 @@
-<div class="relative mx-12 flex flex-col items-center justify-center gap-12 xl:flex-row xl:gap-36">
-    <div class="w-full xl:w-1/2">
+<div class="flex pt-11 px-32 w-full justify-between items-center">
+    <div class="w-1/2 flex flex-col justify-center ">
         <h1 class="text-xl">
-            Enter Zoe's Doodle-Dazzled <span id="scribble" class="font-bold">Digital Univere!</span>
+            Enter Anas's Doodle-Dazzled <span id="scribble" class="font-bold">Digital Univere!</span>
         </h1>
 
         <div class="relative">
             <svg class="absolute h-full w-full overflow-visible">
                 <defs>
                     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" style={{ stopColor: "#DC3A2B", stopOpacity: 1 }}
+                        <stop offset="0%" style={{ stopColor: "#F9E0BB", stopOpacity: 1 }}
                         ></stop>
-                        <stop offset="100%" style={{ stopColor: "#E18510", stopOpacity: 1 }}
+                        <stop offset="100%" style={{ stopColor: "#884A39", stopOpacity: 1 }}
                         ></stop>
                     </linearGradient>
                 </defs>
@@ -21,42 +21,33 @@
                     stroke-width="4"></path>
             </svg>
             <p id="anim-p" class="p-6 text-main">
-                You've stumbled upon <span class="font-bold text-primary">Zoe's</span> little
-                corner of the internet, where creativity runs rampant and normal is just
-                a setting on a washing machine.
+                Welcome to my gallery website! I'm <span class="font-bold text-primary">Anas Bensaid</span> a software engineer with a deep passion for AI art. This platform serves as a virtual space for me to showcase my extensive collection and share my appreciation for the intersection of technology and creativity.
                 <br />
                 <br />
-                Stick around, explore the digital masterpieces, and enjoy the occasional
-                artistic shenanigans. It's more fun than you'd think!
+                Art has always captivated me, but when I discovered the world of AI-generated art, my perception of creativity expanded exponentially. Witnessing the power of artificial intelligence to create captivating and thought-provoking pieces amazed me.
                 <br />
                 <br />
-                Delight in the unpredictable artistic shenanigans that burst forth from the
-                canvas of this digital universe. Here, every visit is an adventure, every
-                glance an exploration. Dive in, the pixels are warm!
+                Through this gallery, I celebrate the marriage of AI and art, showcasing the incredible works that emerge when these two realms intertwine. Each piece has been meticulously curated to highlight the mesmerizing aesthetics, intricate details, and boundless creativity that AI art brings to the world.
             </p>
-        </div>
-
-        <div class="flex justify-center pt-12 text-center text-main text-content xl:gap-16">
-            <div class="w-32">
-                <h2>Art Posts</h2>
-                <p id="art-counter" class="text-xl font-bold">85</p>
-            </div>
-            <div class="w-32">
-                <h2>Youtube</h2>
-                <p id="youtube-counter" class="text-xl font-bold">6.9m</p>
-            </div>
-            <div class="w-32">
-                <h2>Reviews</h2>
-                <p id="reviews-counter" class="text-xl font-bold">300+</p>
-            </div>
-        </div>
     </div>
-
-    <div class="relative">
-        <img class="h-full" src="https://cdn.leonardo.ai/users/06f64239-2f78-40ec-a5f6-d0ac4b6fdd5a/generations/4e0cb547-4c58-4be9-85d2-db1ff9cc8cf5/RPG_40_character_sheet_disney_banksy_art_stickers_of_a_woman_i_0.jpg" alt="Zoe's portrait" />
+    <div class="flex justify-center pt-12 text-center text-main text-content xl:gap-16">
+        <div class="w-32">
+            <h2>Art Posts</h2>
+            <p id="art-counter" class="text-xl font-bold">22</p>
+        </div>
+        <div class="w-32">
+            <h2>Art Generated</h2>
+            <p id="youtube-counter" class="text-xl font-bold">120</p>
+        </div>
+        <!-- <div class="w-32">
+            <h2>Reviews</h2>
+            <p id="reviews-counter" class="text-xl font-bold">300+</p>
+        </div> -->
     </div>
 </div>
-<div class="mt-12 h-6 w-full bg-black"></div>
+<di>
+    <img src="../../public/about.png" class="h-[80vh]"/>
+</div>
 
 <style>
     #border-path {
@@ -108,8 +99,8 @@
             )
         }
     }
-    incrementCounter("art-counter", 0, 85, 1000)
-    incrementCounter("youtube-counter", 0, 328, 1000, "k")
+    incrementCounter("art-counter", 0, 22, 1000)
+    incrementCounter("youtube-counter", 0, 120, 1000)
     incrementCounter("reviews-counter", 0, 250, 1000)
 
     // Update the path when the page loads
