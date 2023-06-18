@@ -39,8 +39,8 @@ const pins = [
 const Gallery: React.FC = () => {
     return (
             <div id="gallery" className="flex flex-col items-center">
-                <h1 className="text-8xl font-bold my-11">Gallory</h1>
-                <div style={{gridAutoRows: '10px'}} className="m-auto grid w-[90vw] lg:w-[75vw] md:w-[80vw]  grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+                <h1 className="text-6xl md:text-8xl font-bold my-11">Gallery</h1>
+                <div style={{gridAutoRows: '10px'}} className="m-auto grid w-full lg:w-[75vw] md:w-[80vw]  grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                     <Pin size="xs" img="https://cdn.leonardo.ai/users/92db7968-e495-4c6d-8e45-87e8f4a4de4b/generations/b4edbe23-29e5-4deb-9fd9-780adf9a21ff/variations/Default_A_detailed_illustration_of_a_cute_and_quirky_little_de_2_b4edbe23-29e5-4deb-9fd9-780adf9a21ff_1.jpg"/>
                     <Pin size="large" img="https://cdn.leonardo.ai/users/27a015bb-7dd1-44bb-9041-f689119f8139/generations/6e57d856-5663-48cf-b349-a8302e6adae8/variations/Default_Beautiful_anime_watercolor_painting_of_Firefox_logo_su_1_6e57d856-5663-48cf-b349-a8302e6adae8_1.jpg" />
                     <Pin size="large" img="https://cdn.leonardo.ai/users/17dfe286-39dd-4c7e-b9e6-631034fa4cd6/generations/e445498b-12e5-43ca-805d-f89292e111ab/variations/Default_sticker_of_ultra_detailed_portrait_of_Vincent_high_qua_3_e445498b-12e5-43ca-805d-f89292e111ab_1.jpg"/>

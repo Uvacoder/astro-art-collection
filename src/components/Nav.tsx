@@ -26,8 +26,8 @@ const itemMotionDesktop = {
 
 const navLinks = [
     {name: "Home", href: "/", id: 1},
-    {name: "Gallery", href: "#gallery", id: 2},
-    {name: "About", href: "/about", id: 3},
+    // {name: "Gallery", href: "#gallery", id: 2},
+    {name: "About", href: "/about", id: 2},
 ]
 
 const NavLinks = ({isMobile, className}: {isMobile: boolean, className: string}) => (
@@ -50,7 +50,7 @@ const Nav = () => {
         <nav className="relative mx-8 md:mx-16 lg:mx-32  flex items-center justify-between pb-4 pt-6 font-medium">
             <svg
                 className="absolute bottom-0 right-0   "
-                width="250"
+                width="150"
                 height="4"
                 viewBox="0 0 250 4"
                 fill="none"
