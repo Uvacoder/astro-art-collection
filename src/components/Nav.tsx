@@ -49,7 +49,7 @@ const Nav = () => {
     return (
         <nav className="relative mx-8 md:mx-16 lg:mx-32  flex items-center justify-between pb-4 pt-6 font-medium">
             <svg
-                className="absolute bottom-0 right-0   "
+                className="absolute bottom-0 right-0 hidden lg:block   "
                 width="150"
                 height="4"
                 viewBox="0 0 250 4"
