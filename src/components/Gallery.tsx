@@ -39,7 +39,7 @@ const pins = [
 const Gallery: React.FC = () => {
     return (
             <div id="gallery" className="flex flex-col items-center">
-                <h1 className="text-6xl md:text-8xl font-bold my-11">Gallery</h1>
+                <h1 className="text-6xl md:text-8xl font-bold my-11 mt-12">Gallery</h1>
                 <div style={{gridAutoRows: '10px'}} className="m-auto grid w-full lg:w-[75vw] md:w-[80vw]  grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                     <Pin size="xs" img="https://cdn.leonardo.ai/users/92db7968-e495-4c6d-8e45-87e8f4a4de4b/generations/b4edbe23-29e5-4deb-9fd9-780adf9a21ff/variations/Default_A_detailed_illustration_of_a_cute_and_quirky_little_de_2_b4edbe23-29e5-4deb-9fd9-780adf9a21ff_1.jpg"/>
                     <Pin size="large" img="https://cdn.leonardo.ai/users/27a015bb-7dd1-44bb-9041-f689119f8139/generations/6e57d856-5663-48cf-b349-a8302e6adae8/variations/Default_Beautiful_anime_watercolor_painting_of_Firefox_logo_su_1_6e57d856-5663-48cf-b349-a8302e6adae8_1.jpg" />
