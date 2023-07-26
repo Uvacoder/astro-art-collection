@@ -6,7 +6,7 @@ const Intro = () => {
             <h1 className="text-2xl md:text-5xl lg:text-6xl w-full md:w-[95%] lg:w-[70%] font-extrabold">Welcome To My Personal AI Art Gallery</h1>
             <div className="grid md:w-[95%] lg:w-[70%] w-full h-[85%] gap-2 md:gap-5 md:h-[70%] grid-cols-2 grid-rows-4 md:grid-cols-4 md:grid-rows-2">
                 <div className=" col-span-1 row-span-2 md:order-1 order-4 rounded-xl overflow-hidden">
-                    <img src="https://cdn.leonardo.ai/users/5f181f93-6313-4652-ad88-3b407b02ad36/generations/a45a1fd7-af2d-4d4a-b004-0247247554d3/variations/Default_a_masterpiece_sticker_of_a_batgirlsupergirl_from_dc_co_3_a45a1fd7-af2d-4d4a-b004-0247247554d3_1.jpg" alt="picture" className="h-full w-full lg:w-auto" />
+                    <img src="https://cdn.leonardo.ai/users/7f534f86-9477-4e53-a2fe-876d77a51a0c/generations/8bce8342-2cd0-4dc3-948e-2f375f4a9ddc/DreamShaper_32_Anime_boy_with_hoodie_neon_outline_colourful_1.jpg" alt="picture" className="h-full w-full lg:w-auto" />
                 </div>
                 <div className=" mt-0 col-span-2 md:order-2 order-1 overflow-hidden row-span-1 rounded-xl ">
                     <img src="https://cdn.leonardo.ai/users/42d93b1f-9a82-4822-ab89-27319b84c1cd/generations/25063732-ac91-431e-93ec-d51fcd0a9e9e/variations/Default_mexican_beauty_centered_looking_at_the_camera_approaching_per_1_25063732-ac91-431e-93ec-d51fcd0a9e9e_1.jpg?w=512" alt="picture" className=" " />
